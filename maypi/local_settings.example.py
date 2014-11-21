@@ -4,6 +4,8 @@ ADMINS = (
 DEBUG = True
 TEMPLATE_DEBUG = True
 SECRET_KEY = 'yoursecretkeyissecret'
+TIME_ZONE = 'America/Los_Angeles'
+USE_TZ = True
 
 LOGGING = {
 		'version': 1,
